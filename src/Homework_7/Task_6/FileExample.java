@@ -5,7 +5,6 @@ import java.io.IOException;
 
 public class FileExample {
     public static void main(String[] args) {
-        // ფაილის შექმნა
         try {
             File file = new File("example.txt");
             if (file.createNewFile()) {
@@ -17,7 +16,6 @@ public class FileExample {
             System.out.println("შეცდომა ფაილის შექმნისას: " + e.getMessage());
         }
 
-        // ფაილის წაშლა
         File fileToDelete = new File("example.txt");
         if (fileToDelete.delete()) {
             System.out.println("ფაილი წარმატებით წაიშალა: " + fileToDelete.getName());

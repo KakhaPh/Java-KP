@@ -13,6 +13,7 @@ public class BufferedReaderExample {
                 System.out.println(line);
             }
             reader.close();
+
         } catch (IOException e) {
             System.out.println("შეცდომა ფაილის კითხვისას: " + e.getMessage());
         }

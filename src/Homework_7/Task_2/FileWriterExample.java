@@ -10,7 +10,7 @@ public class FileWriterExample {
             writer.write("გამარჯობა, ეს ტექსტი ჩაიწერა ფაილში.\n");
             writer.write("ეს არის მეორე ხაზი.\n");
             writer.close();
-            System.out.println("ტექსტი წარმატებით ჩაიწერა ფაილში.");
+            System.out.println("ტექსტი წარმატებით ჩაიწერა ფაილში!");
         } catch (IOException e) {
             System.out.println("შეცდომა ფაილში ჩაწერისას: " + e.getMessage());
         }

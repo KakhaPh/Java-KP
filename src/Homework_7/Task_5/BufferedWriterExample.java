@@ -9,6 +9,7 @@ public class BufferedWriterExample {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter("example.txt", true));
             writer.write("ეს ტექსტი დამატებულია ფაილში.\n");
+
             writer.close();
             System.out.println("ტექსტი წარმატებით დაემატა ფაილში.");
         } catch (IOException e) {
