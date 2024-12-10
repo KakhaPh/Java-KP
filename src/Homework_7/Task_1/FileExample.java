@@ -8,14 +8,12 @@ public class FileExample {
         try {
             File file = new File("example.txt");
 
-            // ფაილის შექმნა
             if (file.createNewFile()) {
                 System.out.println("ფაილი წარმატებით შეიქმნა: " + file.getName());
             } else {
                 System.out.println("ფაილი უკვე არსებობს.");
             }
 
-            // ფაილის ინფორმაცია
             System.out.println("ფაილის სახელი: " + file.getName());
             System.out.println("ფაილის გზა: " + file.getAbsolutePath());
             System.out.println("ფაილის ზომა: " + file.length() + " ბაიტი");
