@@ -16,7 +16,6 @@ class Product {
         return "პროდუქტი: " + name + "', ფასი: " + price;
     }
 }
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<Product> products = new ArrayList<>();
@@ -67,7 +66,7 @@ public class Main {
                     System.out.println("გამოსვლა...");
                     return;
                 default:
-                    System.out.println("არასწორი ჩანაწერი;");
+                    System.out.println("არასწორი ჩანაწერი!");
             }
         }
     }

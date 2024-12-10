@@ -40,7 +40,7 @@ public class Main {
                 case 5:
                     return;
                 default:
-                    System.out.println("არასწორი ჩანაწერი;");
+                    System.out.println("არასწორი ჩანაწერი!");
             }
         }
     }
