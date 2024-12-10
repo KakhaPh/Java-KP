@@ -5,7 +5,7 @@ public class Generic {
             Box<Integer> intBox = new Box<>();
             intBox.setValue(10);
             System.out.println(intBox.getValue());
-
+            //
             Box<String> strBox = new Box<>();
             strBox.setValue("Hello, Java!");
             System.out.println(strBox.getValue());

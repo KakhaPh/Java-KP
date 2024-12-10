@@ -7,6 +7,5 @@ public class Dictionary {
 //        dict.put("Key2", "Value2");
 //
 //        System.out.println(dict.get("Key1"));
-
     }
 }

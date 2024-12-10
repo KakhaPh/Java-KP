@@ -34,7 +34,7 @@ public class Main {
                 case 5:
                     return;
                 default:
-                    System.out.println("Invalid choice.");
+                    System.out.println("Invalid choice!");
             }
         }
     }

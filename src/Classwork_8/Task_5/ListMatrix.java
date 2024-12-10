@@ -13,6 +13,5 @@ public class ListMatrix {
         matrix.add(row2);
 
         System.out.println(matrix);
-
     }
 }

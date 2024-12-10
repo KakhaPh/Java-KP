@@ -13,5 +13,6 @@ public class Main {
 
         Collections.sort(students);
         System.out.println(students);
+
     }
 }
